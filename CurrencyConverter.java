@@ -24,7 +24,7 @@ public class CurrencyConverter{
 };
     public static ArrayList<String> currencies = new ArrayList<String>(Arrays.asList(currenciesA));
     public static ArrayList<Double> conversionFactorsToDollar = new ArrayList<Double>(Arrays.asList(conversionFactorsToDollarA));
-    
+
     public int convertFrom;
     public int convertTo;
     public double conversionQTY;
