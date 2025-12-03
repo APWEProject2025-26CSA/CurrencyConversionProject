@@ -6,8 +6,22 @@ public class CurrencyConverter{
     
     //TODO: Fix conversion factors
     public static String[] currenciesA = {"Indian Rupee", "US Dollar", "European Euro", "British Pound", "Canadian Dollar", "Mexican Peso", "United Arab Emirates Dirham", "Korean Won", "Australian Dollar", "Nigerian Naira", "Singapore Dollar", "Chinese Yuan", "Japanese Yen", "Russian Ruble"};
-    public static Double[] conversionFactorsToDollarA = {0.011, 1.0, 0.86, 0.76, 1.40, 18.29, 3.67, 1469.9, 1.52, 1446.75, 1.30, 7.07, 155.46, 77.73};
-    
+    public static double[] conversionFactorsToDollar = {
+        0.012, // 0. Indian Rupee (INR): 1 INR = 0.012 USD
+        1.0, // 1. US Dollar (USD): 1 USD = 1.0 USD
+        1.09, // 2. European Euro (EUR): 1 EUR = 1.09 USD
+        1.25, // 3. British Pound (GBP): 1 GBP = 1.25 USD
+        0.74, // 4. Canadian Dollar (CAD): 1 CAD = 0.74 USD
+        0.057, // 5. Mexican Peso (MXN): 1 MXN = 0.057 USD
+        0.27, // 6. United Arab Emirates Dirham (AED): 1 AED = 0.27 USD
+        0.00076, // 7. Korean Won (KRW): 1 KRW = 0.00076 USD
+        0.66, // 8. Australian Dollar (AUD): 1 AUD = 0.66 USD
+        0.00072, // 9. Nigerian Naira (NGN): 1 NGN = 0.00072 USD
+        0.75, // 10. Singapore Dollar (SGD): 1 SGD = 0.75 USD
+        0.14, // 11. Chinese Yuan (CNY): 1 CNY = 0.14 USD
+        0.0068, // 12. Japanese Yen (JPY): 1 JPY = 0.0068 USD
+        0.011, // 13. Russian Ruble (RUB): 1 RUB = 0.011 USD
+};
     public static ArrayList<String> currencies = new ArrayList<String>(Arrays.asList(currenciesA));
     public static ArrayList<Double> conversionFactorsToDollar = new ArrayList<Double>(Arrays.asList(conversionFactorsToDollarA));
     
